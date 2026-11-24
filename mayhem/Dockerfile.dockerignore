@@ -1,0 +1,8 @@
+# Build context for mayhem/Dockerfile: the FULL repo incl. .git (the grader uses the history);
+# only local build outputs are dropped.
+mayhem/build/
+fuzz_layout
+fuzz_layout-standalone
+ctrf-report.json
+*.o
+*.a
